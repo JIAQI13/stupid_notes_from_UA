@@ -1,0 +1,84 @@
+* math 214
+
+* stupid notes 5/27
+
+* cylinders and quadric surfaces
+
+  
+***  a quadric surfaces in the quadric of a second -degree equation in x y z: Ax^2+By^2+Cz^2+Dxy+Eyz+Fyz+Mx+Ny+Qz+P=0
+    
+*** an equation contoinueing 2 of the variables x y z is called a cylindcical surfaces( or cylinder)
+
+*** cross-sections (traces) = curces of intverction between the sufface and planes to the coordinate planes
+
+
+
+
+
+** ex sketch the graph of x^2+z^2=4 in a 3rd - surfaces  
+   
+*** solution x^2+z^2=4 is a infinite cylinder on y axis
+
+
+* Ellipsoid 椭圆三纬 --只要知道方程就可以，可能会有画画？
+
+** gereral term x^2/a^2+y^2/b^2+z^2/c^2=1 
+   
+   
+*** notes:all cut surfaces are ellipses
+
+
+** ex x^2/4+y^2/16+z^2/9=1  
+   
+*** in the xy plane z=const x^2/4+y^2/16=1-z^2/g <=> 1-z^2/9 >0 <=> q - z ^2 >0 <=> z is (-3,3)
+   
+
+*** in the yz plane x=const x=k y^2/16+z^2/9=1-k^2/4 ellipses <=> 1-k^2/4 >0 <=> 4-K^2>0 <=> k is (-2,2) 
+
+* Hyperboloid of one sheet 左右开口双曲线三维 
+
+** gerneral: x^2/a^2+y^2/b^2-z^2/c^2=1
+
+*** horizontal traces are ellipses
+
+
+*** vertical traces are hyperbolas
+
+
+*** the axis of symmetry ? the variables whoses coefficient in negative 
+
+* Hyperboloid of 2 sheets 上下开口的双曲线三维
+
+** gerneral -x^2/a^2-y^2/b^2+z^2/c^2=1
+
+*** horizontal traces in the plane z=k are ellipses is k >c or k<-c
+
+*** vertical traces are hyperbolas
+
+*** the 2 minus signs indicate the two sheets
+
+* Cone  
+
+** gerneral: z^2/c^2=x^2/a^2+y^2/b^2
+
+*** horizontal traces are ellipses
+
+*** vertical traces are in x=k and y=k are hyperbolas if k!=0 and pairs of line if k=0
+
+* Elliptic Paraboloid 
+
+** gerneral : z/c = x^2/a^2 + y^2/b^2
+
+*** horizontal traces are ellipses
+
+*** vertical traces are parabolas 
+
+*** the variables raised to the fourth pwer indicate the acis of hte paraboloid 没有平方的那个是图形的延申方向 
+
+* Hyperbolic paraboloid 马鞍形状 有鞍点
+ 
+** z/c=x^2/a^2-y^2/b^2
+
+*** horizontal traces are hyperbolas
+
+*** vertical traces area parabolas
