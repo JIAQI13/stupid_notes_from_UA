@@ -1,1 +1,47 @@
 * music 101
+** 5.28 
+*** 
+**** ties (marking to connect two notes together, tie will always on the same pitch) 
+**** ascending (moving uptoawrd, --- descending
+**** Octave (键盘上的黑色键2，3间隔 relationship between two note of the same pattern)
+**** Stems/Flags/Beams
+**** 8va/8vb 升降调 
+**** ledger lines
+**** Clef
+
+*** Clefs
+    middle c position?
+
+**** treble under the stack(piano)  F A C E
+
+**** Bass above the stack
+
+**** ALto in the middle of the symbol(viola)
+
+**** Tenor in the middle of the symbol
+
+*** Stems
+
+**** Normal for one line
+
+**** choir
+
+*** Intervals and Transposition 
+
+**** perfect intervals - Octave/4th/5th/unison (8 notes apart 
+
+**** what is transposing? take music mataining the inner relationship moving them to different register
+
+A B C D E F G
+
+                    G#
+------------F#---------------------------------------------------------------------
+       E
+-----D----------------------------------------------------------------------------
+   C
+---------B-----Bb--------------------------------------------------------------------
+A
+--------------------G#-------------------------------------------------------------
+  F
+------------------------------------------------------------------------------------
+
