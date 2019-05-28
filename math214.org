@@ -82,3 +82,39 @@
 *** horizontal traces are hyperbolas
 
 *** vertical traces area parabolas
+
+
+* 5/28 Polar coordinate 
+ 
+ $ is theta
+
+** (R,theta) =( cos theta, sin theta)  
+
+** R= 2asin$--> R^2= 2a R sin$
+
+** the graph of a polar curve R=f($) is the net of all pints (R,$) that satsify the equation 
+
+** sketch the graph of $=pi/4 , is a line 
+
+** R = 1- cos$ the graph is a curve  
+
+** R = sin3$ rose shape  
+
+** R = a cosn$, R = a sinn$ are petal curves (roses)
+
+** if n is odd --> the curve has n petals
+
+** if n = even --> the curve has 2n petals
+
+* Tangents to polar curves
+
+** C: f($) <==> x=Rcos$ y=Rsin$
+
+** m = dy/dx = (dy/d$)/(dx/d$) = (dR/d$) sin$ + Rcos$ / ((dR/d$) cos$) -(Rsin$)
+
+** let R = 1-cos$, find the slope of the tangent to the cordioid when $=pi/4 用sin和cos的坐标值求导得到一个关于theta的方程带入即可得到
+
+** let c : R=f($) a polar curve has a horizontal tangetn if dy/d$ =0 but dx/d$ !=0, a vertical tangent if dx/d$=0 but dy/d$ !=0
+
+*** find the points on the cardioid at which there is i)a horizontal tangent ii)a vertical tangent
+
