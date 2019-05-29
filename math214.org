@@ -2,7 +2,7 @@
 
 * stupid notes 5/27
 
-* cylinders and quadric surfaces
+** cylinders and quadric surfaces
 
   
 ***  a quadric surfaces in the quadric of a second -degree equation in x y z: Ax^2+By^2+Cz^2+Dxy+Eyz+Fyz+Mx+Ny+Qz+P=0
@@ -20,7 +20,7 @@
 *** solution x^2+z^2=4 is a infinite cylinder on y axis
 
 
-* Ellipsoid 椭圆三纬 --只要知道方程就可以，可能会有画画？
+** Ellipsoid 椭圆三纬 --只要知道方程就可以，可能会有画画？
 
 ** gereral term x^2/a^2+y^2/b^2+z^2/c^2=1 
    
@@ -35,7 +35,7 @@
 
 *** in the yz plane x=const x=k y^2/16+z^2/9=1-k^2/4 ellipses <=> 1-k^2/4 >0 <=> 4-K^2>0 <=> k is (-2,2) 
 
-* Hyperboloid of one sheet 左右开口双曲线三维 
+** Hyperboloid of one sheet 左右开口双曲线三维 
 
 ** gerneral: x^2/a^2+y^2/b^2-z^2/c^2=1
 
@@ -47,7 +47,7 @@
 
 *** the axis of symmetry ? the variables whoses coefficient in negative 
 
-* Hyperboloid of 2 sheets 上下开口的双曲线三维
+** Hyperboloid of 2 sheets 上下开口的双曲线三维
 
 ** gerneral -x^2/a^2-y^2/b^2+z^2/c^2=1
 
@@ -57,7 +57,7 @@
 
 *** the 2 minus signs indicate the two sheets
 
-* Cone  
+** Cone  
 
 ** gerneral: z^2/c^2=x^2/a^2+y^2/b^2
 
@@ -65,7 +65,7 @@
 
 *** vertical traces are in x=k and y=k are hyperbolas if k!=0 and pairs of line if k=0
 
-* Elliptic Paraboloid 
+** Elliptic Paraboloid 
 
 ** gerneral : z/c = x^2/a^2 + y^2/b^2
 
@@ -75,7 +75,7 @@
 
 *** the variables raised to the fourth pwer indicate the acis of hte paraboloid 没有平方的那个是图形的延申方向 
 
-* Hyperbolic paraboloid 马鞍形状 有鞍点
+** Hyperbolic paraboloid 马鞍形状 有鞍点
  
 ** z/c=x^2/a^2-y^2/b^2
 
@@ -106,7 +106,7 @@
 
 ** if n = even --> the curve has 2n petals
 
-* Tangents to polar curves
+** Tangents to polar curves
 
 ** C: f($) <==> x=Rcos$ y=Rsin$
 
@@ -118,3 +118,21 @@
 
 *** find the points on the cardioid at which there is i)a horizontal tangent ii)a vertical tangent
 
+
+* 5/29 vector function sand space curves 
+** a vector funcrion is a functiion with domain R and range the net of all vecors V
+*** ex find the domain of ->R,->R = ln(t-2)i + e^t j + sqr(t-1) k
+
+*** f(t)=ln(t-2)
+** a vector function R(t) is const at a a belongs to D 和正常方程一样的limit原则 
+** R(t)<f(t),g(t),h(t)> is const at a  <=> the real function f g h are const at a 
+** the net C of all points (x,y,z) in space with x=f(t) y=g(t) z=h(t) t belongs interval is called a space curve (*) = parametic egs of the curve,C
+*** Describe the curve define by the vector function <1-t,3t,2t>
+*** which is a parametric egs of a line through x0 y0 z0 direction v=<a,b,c>
+*** heliv:-->sketch the curve given by R(t) if R(t) =<2sint,-2cost,3t> 
+    x^2+y^2=4 the curve likes on this cylinder
+    create the table between x and y
+*** parametrize the intersection of the 2 surfaces: y^2-z^2=x-2 and y^2+z^2=9 with
+*** a)y=t as parameter 由a得出t的范围，然后用t表示x，最后把xyz用已知的t表示
+*** b)y=3sint z=3cost <==> y^2+z^2=9, x=9sin^2t-9cos^2t +2,这样就化成了sin和cos的表示形式t belongs to R 
+    solution y=t --> y^2+z^2=9 ==> t^2+z^2=9 ==> z^2=9-t^2 ==> t [-3,3]
