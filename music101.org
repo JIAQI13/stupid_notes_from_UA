@@ -45,3 +45,18 @@ A
   F
 ------------------------------------------------------------------------------------
 
+** 5.29
+   B C and E F 中间没有黑键，中间是half step
+*** whole step
+    
+*** half step
+
+*** enharmonic two different way to desribe a note C#/Db, C/Dbb, C##(C double sharp)/D
+
+*** Diatonic (one away C -> Db)vs Chromatic(C -> C#) 
+
+*** use all sharps or all flats
+
+*** Speaking rhythms/Counting
+    b  fb f g# c# c a g 
+
