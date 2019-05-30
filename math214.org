@@ -136,3 +136,79 @@
 *** a)y=t as parameter 由a得出t的范围，然后用t表示x，最后把xyz用已知的t表示
 *** b)y=3sint z=3cost <==> y^2+z^2=9, x=9sin^2t-9cos^2t +2,这样就化成了sin和cos的表示形式t belongs to R 
     solution y=t --> y^2+z^2=9 ==> t^2+z^2=9 ==> z^2=9-t^2 ==> t [-3,3]
+
+* Derivatives and Inteqval of vector functions 
+** R(t)=lim n->0 (R(
+
+
+** 和正常方程一样求导
+
+** R'(t) exists and R'(t)!=0 then R(t)= the tangent vector to c
+
+** the tangent line to curve c at point p in the line passing through p with direction vector R(t)M
+
+
+** the vector T(t)=R(t)/|R'(t)| --> unit tangent vector
+
+*** ex find an equation of the tangent line to the curve defined by the parametric egs: 
+
+*** x=t, y=t^2 z=t^3 at the point (1,1,1)
+
+*** solution R(t)=<t,t^2,t^3>  R'(t)=<1,2t,3t^2>
+
+*** (1,1,1)要确保和要求的点一样的坐标
+
+** let u v = diff vector functions 
+   
+*** the sum deritive is the deritive sum
+
+*** cu(t)=cu'(t)m
+
+*** f(t)u(t)product rule 标量，点乘，叉乘
+
+
+
+** let R(t)=<f(t),g(t),h(t)> 
+
+*** 对每个坐标的函数积分就可以了
+
+** a curve define by R(t) is called smooth if R in continuous and R(t)!=0
+
+*** show that it is smooth R=<t^3+T,4t^3,3t^2>
+
+**** since they are all continuous functions, R(t) is continuousand 3t^2+1!=0 for all t ==> R'(t) is none zero and the curve is smooth
+
+
+
+** Acclength and cwzcature  
+
+
+*** let c be a soace awxe given by the egs:
+    x=f(t) y=g(t) z=h(t) a<=t<=6
+    and f' g' h' are constant if c is traversed exactly once as t in areares from a to b then the length of c from a to b is 
+    L=|b |R(t)|dt==>
+      |a
+      blablabal
+
+
+*** 求导就是对xyz三项分别求导
+
+*** parametrize the helix 
+    R(t)=<acost,asint,bt> a,b>0 in terms of arc length measure from the point (a,0,0) in the direction of increasing t
+    solution: (a,0,0) converge to t =0
+    bt=0,b>0 ==> t=0
+    ****s = s(t) = |t|R'(u)|du *****  (arclength functions)
+                   |0
+   带入求解 s和t的关系，把原柿子里的t用s代替
+** curvature
+*** K=kappa
+*** the curvature of a smooth curve c is defined as k=|dT->/dS| where T = unit tangent vector
+
+*** note k =|(dT/dt)/(dS/dt)|=|T'(t)/R'(t)|
+*** the courxature of a cureve c given by R(t) is 
+    K(t)=|R'(t)x R''(t)|/|R(t)|^3
+
+*** find the curvature at an arbitery point when R(t) =<acost,asint,bt> ab>0
+    
+**** find K(t) 根据公式得到一阶导数和二阶导数，再算叉乘一阶导和二阶导,再计算结果的模长，再算R的模长，除一下
+     ******************line，circle，helix三种curve有个常数K******************
