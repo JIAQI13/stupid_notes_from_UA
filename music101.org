@@ -1,6 +1,6 @@
 * music 101
 ** 5.28 
-*** 
+*** homework review
 **** ties (marking to connect two notes together, tie will always on the same pitch) 
 **** ascending (moving uptoawrd, --- descending
 **** Octave (键盘上的黑色键2，3间隔 relationship between two note of the same pattern)
@@ -45,18 +45,30 @@ A
   F
 ------------------------------------------------------------------------------------
 
-** 5.29
+
+** 5.29 
    B C and E F 中间没有黑键，中间是half step
 *** whole step
-    
 *** half step
-
 *** enharmonic two different way to desribe a note C#/Db, C/Dbb, C##(C double sharp)/D
-
 *** Diatonic (one away C -> Db)vs Chromatic(C -> C#) 
-
 *** use all sharps or all flats
-
 *** Speaking rhythms/Counting
     b  fb f g# c# c a g 
 
+
+** 5.30 test tomorrow
+
+*** homework review 
+**** *****************diatonic is one line away and chromatic is in the same line************* x四周有点的是double sharp 
+**** cut time C中间有个竖线 代表2/2拍
+*** key signature
+**** accidentals that apply to the entire plaece
+**** F C G D A E B fat cats go down alleys eating birds
+**** folllow the same pattern for sharp and flats
+*** major keys
+**** W/W/H/W/W/W/H major
+      W/H/W/W/H/W/W MINOR
+**** based on the major scales
+**** 12 different scales (one for each chromatic pitch)
+*** seale degrees/functions 
