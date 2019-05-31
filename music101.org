@@ -8,10 +8,8 @@
 **** 8va/8vb 升降调 
 **** ledger lines
 **** Clef
-
 *** Clefs
     middle c position?
-
 **** treble under the stack(piano)  F A C E
 
 **** Bass above the stack
@@ -21,13 +19,11 @@
 **** Tenor in the middle of the symbol
 
 *** Stems
-
 **** Normal for one line
 
 **** choir
 
 *** Intervals and Transposition 
-
 **** perfect intervals - Octave/4th/5th/unison (8 notes apart 
 
 **** what is transposing? take music mataining the inner relationship moving them to different register
@@ -45,7 +41,6 @@ A
   F
 ------------------------------------------------------------------------------------
 
-
 ** 5.29 
    B C and E F 中间没有黑键，中间是half step
 *** whole step
@@ -56,9 +51,7 @@ A
 *** Speaking rhythms/Counting
     b  fb f g# c# c a g 
 
-
 ** 5.30 test tomorrow
-
 *** homework review 
 **** *****************diatonic is one line away and chromatic is in the same line************* x四周有点的是double sharp 
 **** cut time C中间有个竖线 代表2/2拍
@@ -68,7 +61,16 @@ A
 **** folllow the same pattern for sharp and flats
 *** major keys
 **** W/W/H/W/W/W/H major
-      W/H/W/W/H/W/W MINOR
+**** W/H/W/W/H/W/W MINOR
 **** based on the major scales
 **** 12 different scales (one for each chromatic pitch)
 *** seale degrees/functions 
+** 5.31
+*** F C G D A E B
+| NATURAL  | down  |
+|----------+-------|
+| natural  | 3,6,7 |
+| harmonic | 3,6   |
+| melodic  | 3     |
+
+*** D harmonic minor or g mel minor has flat and shap
