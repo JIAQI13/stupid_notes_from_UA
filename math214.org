@@ -1,6 +1,5 @@
 * math 214
-
-* stupid notes 5/27
+* 5/27
 
 ** cylinders and quadric surfaces
 
@@ -83,7 +82,6 @@
 
 *** vertical traces area parabolas
 
-
 * 5/28 Polar coordinate 
  
  $ is theta
@@ -118,7 +116,6 @@
 
 *** find the points on the cardioid at which there is i)a horizontal tangent ii)a vertical tangent
 
-
 * 5/29 vector function sand space curves 
 ** a vector funcrion is a functiion with domain R and range the net of all vecors V
 *** ex find the domain of ->R,->R = ln(t-2)i + e^t j + sqr(t-1) k
@@ -137,62 +134,35 @@
 *** b)y=3sint z=3cost <==> y^2+z^2=9, x=9sin^2t-9cos^2t +2,这样就化成了sin和cos的表示形式t belongs to R 
     solution y=t --> y^2+z^2=9 ==> t^2+z^2=9 ==> z^2=9-t^2 ==> t [-3,3]
 
-* Derivatives and Inteqval of vector functions 
+* 5/30 Derivatives and Inteqval of vector functions
 ** R(t)=lim n->0 (R(
-
-
 ** 和正常方程一样求导
-
-** R'(t) exists and R'(t)!=0 then R(t)= the tangent vector to c
-
+** R'(t) exists and R'(t)!=0 then R(t)= the tangent vector to
 ** the tangent line to curve c at point p in the line passing through p with direction vector R(t)M
-
-
 ** the vector T(t)=R(t)/|R'(t)| --> unit tangent vector
-
 *** ex find an equation of the tangent line to the curve defined by the parametric egs: 
-
 *** x=t, y=t^2 z=t^3 at the point (1,1,1)
-
 *** solution R(t)=<t,t^2,t^3>  R'(t)=<1,2t,3t^2>
-
 *** (1,1,1)要确保和要求的点一样的坐标
-
 ** let u v = diff vector functions 
-   
 *** the sum deritive is the deritive sum
-
 *** cu(t)=cu'(t)m
-
 *** f(t)u(t)product rule 标量，点乘，叉乘
-
-
-
 ** let R(t)=<f(t),g(t),h(t)> 
-
 *** 对每个坐标的函数积分就可以了
-
 ** a curve define by R(t) is called smooth if R in continuous and R(t)!=0
-
 *** show that it is smooth R=<t^3+T,4t^3,3t^2>
-
 **** since they are all continuous functions, R(t) is continuousand 3t^2+1!=0 for all t ==> R'(t) is none zero and the curve is smooth
 
 
-
 ** Acclength and cwzcature  
-
-
 *** let c be a soace awxe given by the egs:
     x=f(t) y=g(t) z=h(t) a<=t<=6
     and f' g' h' are constant if c is traversed exactly once as t in areares from a to b then the length of c from a to b is 
     L=|b |R(t)|dt==>
       |a
       blablabal
-
-
 *** 求导就是对xyz三项分别求导
-
 *** parametrize the helix 
     R(t)=<acost,asint,bt> a,b>0 in terms of arc length measure from the point (a,0,0) in the direction of increasing t
     solution: (a,0,0) converge to t =0
@@ -212,3 +182,42 @@
     
 **** find K(t) 根据公式得到一阶导数和二阶导数，再算叉乘一阶导和二阶导,再计算结果的模长，再算R的模长，除一下
      ******************line，circle，helix三种curve有个常数K******************
+* 5/31  
+** when c is a plane vurve with eg y = f(x) then K(x)= |f''(x)| / [1+ (f'(x))^2 ] ^(3/2)
+*** ex find the curvature of y = sqr(x) at (a) (x,y) (b) (2,square_rootof(2))
+**** 计算一阶和二阶导数,带入公式 (a) 2/(1+4x)^(3/2)
+**** x=2 2/27
+** let c be a curve with equation R->(t) we have T->(t)=R'(t)/|R'(t)|==>  unit tangent vextor
+** N->(t)=T->'(t)/|T->'(t)| ==> unit normal vextor
+** B->(t) = T->(t) * N->(t) ==> binomal vextor
+** these three vectors are ortoginal to each other 以上三个矢量相互垂直
+** the plane form by B and N is called as normal plane
+** the plane form by T and N is called as oscutating plane. is the closest plane to the curve at the given point.适合曲线有一个交点的平面m
+** the normal vector for the normal plane is T-> or R'->
+** the noraml vector for the osaculating plane is B-> or R'->xR''->
+*** ex find the egs of the normal and osculating planes to the curve given by x=2sin(3t), y=2cos(3t), y=t at the point (0,pi.-2)
+    normal
+**** 对R求导，一阶导和二阶导，点经过R，得到t=pi，得到正确的方程 
+**** normal plane 直接带入 R'(pi)
+**** 有了法向量和经过的点得到平面方程
+     osculating
+**** 一阶导叉乘二阶导 n->=18<1,6,0> 
+**** 有了法向量和经过的点得到平面方程
+** the osculating circle of a curve c at p is the circle that lies the osculating plane of c at 
+** p (lies on the concave side of c),the radius of the circle is  J=1/K 
+
+* 5/31 Fuction of serveral variables
+
+** let D belongs to R^2 a function fo 2 variables is a rule that assign to each ordered pairs of real numbers (x,y) in D exactly one
+** real number z = f(x,y)
+
+*** D = domain, x,y = independent variables, z= dependent variables, range = {z|z=f(x,y),(x,y) must be in the domain of the function}
+**** 再图像上找符合要求的点的位置，看直线划分的不同区域，选择他们的交集
+** the graph of z = f(x,y) is Gf={(x,y,z)|z=f(x,y),(x,y) belongs to D }
+*** sketch the graph of f(x,y) = 1-2x-3y
+**** solution Gf={(x,y,z)|z=1-2x-3y}
+**** z=1-2x-3y --> 2x+3y+z-1=0 this is a plane 取xyz坐标交点连起来的平面就是结果
+** let z=f(x,y) (x,y) in D the level curves of f are the curves with egs f(x,y)=k, k = constant in the range of f
+*** find the level curves of z =f(x,y) f(x,y)=x^2+y^2
+**** the level curves are a family of concentrate circles靶子形状的 
+** Function of three variables w=f(x,y,z)
