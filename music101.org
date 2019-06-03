@@ -74,3 +74,17 @@ A
 | melodic  | 3     |
 
 *** D harmonic minor or g mel minor has flat and shap
+
+** 6/2 chapter 6
+*** homework
+**** cout the intervals to tell its a major or minor,th pattern works on the way up, determine the last step , if its a whole its not a major
+**** find the lowest note and its the leading note for hte major
+**** on the circle of forth and fifth if the sharp number is corrext and it is the coresponding sharp on the circle then it is a major
+**** F C G D A E B 
+*** intervals perfect interval/major interval      
+  1/2 step = semitone, 1 step = 1 tone
+*** major/minor
+*** augmented
+*** diminished
+*** scale degree
+*** note funtions
