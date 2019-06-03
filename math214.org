@@ -1,6 +1,5 @@
 * math 214
 * 5/27
-
 ** cylinders and quadric surfaces
 
   
@@ -13,11 +12,9 @@
 
 
 
-
 ** ex sketch the graph of x^2+z^2=4 in a 3rd - surfaces  
    
 *** solution x^2+z^2=4 is a infinite cylinder on y axis
-
 
 ** Ellipsoid 椭圆三纬 --只要知道方程就可以，可能会有画画？
 
@@ -25,7 +22,6 @@
    
    
 *** notes:all cut surfaces are ellipses
-
 
 ** ex x^2/4+y^2/16+z^2/9=1  
    
@@ -83,9 +79,7 @@
 *** vertical traces area parabolas
 
 * 5/28 Polar coordinate 
- 
  $ is theta
-
 ** (R,theta) =( cos theta, sin theta)  
 
 ** R= 2asin$--> R^2= 2a R sin$
@@ -113,9 +107,7 @@
 ** let R = 1-cos$, find the slope of the tangent to the cordioid when $=pi/4 用sin和cos的坐标值求导得到一个关于theta的方程带入即可得到
 
 ** let c : R=f($) a polar curve has a horizontal tangetn if dy/d$ =0 but dx/d$ !=0, a vertical tangent if dx/d$=0 but dy/d$ !=0
-
 *** find the points on the cardioid at which there is i)a horizontal tangent ii)a vertical tangent
-
 * 5/29 vector function sand space curves 
 ** a vector funcrion is a functiion with domain R and range the net of all vecors V
 *** ex find the domain of ->R,->R = ln(t-2)i + e^t j + sqr(t-1) k
@@ -221,3 +213,53 @@
 *** find the level curves of z =f(x,y) f(x,y)=x^2+y^2
 **** the level curves are a family of concentrate circles靶子形状的 
 ** Function of three variables w=f(x,y,z)
+* 6/2 Limit and continuity
+** let z = f(x,y) xy in D we say that f(x,y)= (x,y )-->(a,b)
+** makeing the distance between (x,y) and (a,b) sufficiently small (but not 0)
+** Def let C be a plane with eg R->(t)=<x(t),y(t)> such that R->(t0)=<a,b>
+*** then limf (x,y)->(a,b)(x,y)=lim t->t0 f(x(t),y(t))
+** TH If lim (x,y)->(a,b) f(x,y) = l1 along a path c, lim (x,y)->(a,b) f(x,y) = l2 along a oth c2 and if  
+*** l1!=l2 then lim (x,y)->(a,b) f(x,y) does not exist
+**** ex lim (x,y)->(1,0) (zx^2+6xy+1/2 y^7+2)= 4 
+**** ex2 show that the following lim does not exist lim (x,y)->(0,0) ( x^2/ (x^2+y^2) )
+***** let (x,y) -> (0,0) along the x axis:y=0, f(x,y)=f(x,0)=1
+***** lim (x,y)->(0,0) f(x,0) = lim (x,y)->(0,0) 1 =1 so l1=1
+***** f(0,y) = 0,l2=0
+***** since l1=1!=0=l2 lim does not exist
+**** ex3 lim (x,y)->(0,0) (xy+y^3/x^2+y^2)
+***** (x,y) -> (0,0) along the x-axis:y=0
+***** y=0, l1=0
+***** x=0, l2=0 even l1=l2=0 we cannot say that limit exist and limit is 0 here
+***** (x,y) -> (0,0) along the line y=x
+***** we have ((x^2(1+x))/(2x^2))-> lim ((1+x)/2)=1/2 l3=1/2
+***** since l1!=l3 lim does not exist
+****** at least take 4 diffierent direction and use different tricks.
+**** ex4 (switching to polar cooordinates) use polar coordinates to find lim (x,y)->(0,0) ln(x^2+y^2) =0??
+**** ex 5 lim (x,y)->(0,0) (x^2 sin^2y)/(x^2+y^2)
+***** y=0,l1=0
+***** x=0,l2=0
+***** x=y,l3=sin^2x/2=0
+***** y=x^2, l4=x^2sin^2(x^2)/x^2+x^4=0
+****** doesn't matter what kind of direction u take the limit must be zero
+***** to show that the limit exist sue squeeze's theorem
+***** 0<=x^2sin^2y/x^2+y^2<=sin^2y since x^2/x^2+y^2<=1
+***** we have 2/2+1<1
+***** by the squeeze theorem the limit exist and its zero
+** Def let z =f(x,y) (x,y) in D, f is continue at (a,b) [a,b in D] if lim (x,y)->(a,b) =f(a,b)
+*** ex f(x,y)= x^2/x^2+y^2 if f(x,y)!=(0,0) | 0 if (x,y)=(0,0)
+**** since ex2 does not exist f is not continues at (0,0) 
+** Partial dericatives
+*** let f(x,y)=z,x,y in D, keep y = constant, f(x,y)=g(x),g'(a)=fx(a,b) the partial deritives of f with respext to x
+*** 
+** Geometric Interpretation of fx(a,b) fy(a,b)
+*** 三维平面中的切面的xy轴切线的斜率
+*** fx(a,b) the slope of the tangent line t1 to curve c2 at the point p in the plane y=b
+*** fy(a,b) the slope of the tangent t2 to curve c2 at p int he plane x=a
+** Higher dericatives 
+*** z=f(x,y) ==> fx(x,y) and fy(x,y) 
+*** 先求导再求导偏
+** clairaut's theorem
+*** let z = f(x,y) defined as a disk D (a,b) in D if fxy and fyx are continues on D then fxy(a,b)=fyx(a,b)
+**** ex f(x,y) ln(2x+5y) find fxy fyy fxx
+***** fxy = -15/(3x+5y)^2 
+***** fxx = 
