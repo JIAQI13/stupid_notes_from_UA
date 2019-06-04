@@ -262,4 +262,32 @@
 *** let z = f(x,y) defined as a disk D (a,b) in D if fxy and fyx are continues on D then fxy(a,b)=fyx(a,b)
 **** ex f(x,y) ln(2x+5y) find fxy fyy fxx
 ***** fxy = -15/(3x+5y)^2 
-***** fxx = 
+***** fxx =
+**** ex f(x,y) = cos(2x-4y) find f xyx
+***** -16sin(2x-4y)
+**** ex show that f(x,y)=e^-2y cos(2x) satisfies d^2 f/dx^2 +d^2 f/ d y^2=0
+***** dx: -2e^ -2y sin2x
+***** ddx: -4e^-2y cos(2x)
+***** dy: -2cos(2x) e ^ -2y
+***** dyy: 4cos(2x) e^-2ey
+* 6/3 tangent planes and linear approximations
+** graph  z = f(x,y) is a surface S {P}=c1 n c2
+** the tangent plane is the plane continue ing the 2 tangent lines at p T1 and T2
+** A(x-x0)+B(y-y0)+C(z-z0)=0 ==> devided by C we have z-z0=a(x-x0)+b(y-y0)
+*** T1 interection of alfa with the plane y =y0
+*** T1 : z-z0=a(x-x0); y=y0 the slope of T1 is fx(x0,y0)=a
+*** T2 : z-z0=b(y-y0); x=x0 the slope of T2 is fy(x0,y0)=b
+*** as a result we have z-z0=fx(x0,y0)(x-x0)+fy(x0,y0)(y-y0)
+*** tangent plane to the surface z=f(x,y) at the point (x0,y0,z0)
+**** ex let z=ylinx find the equation of the tangent plane to the given surface at the point (1,4,0).
+***** fx(x,y)=y/x (1,4)=4
+***** fy(x,y)=lnx (1.4)=ln1=0
+***** the tangent plane is z-0=4(x-1)+0(y-4) ==> z=4x-4 4x-z-4=0
+**** ex f(x,y) =x cosy -ye^x (0,0,0) eg of the tangent plane?
+***** find fx(x,y) fy(x,y) then we can find the plane put the dot in and we find the given tangent plane
+** linearization of f(x,y) at (a,b)
+*** find the linearization of f(x,y)=x^2-xy+0.5y^2+3 at the point (3,2)
+**** L(x,y)=f(3,2) + fx(3,2)(x-3) +fy(3,2)(y-2) ==> 4x-y-2
+** th let z=f(x,y) If hte particial derivatives fx and fy exist near a point (a,b) in the domian of f and if they are contious at (a,b) the f is differentiabe at (a,b) 
+** note let dx=deltax=x-a dy=deltay=y-b then we have dz=fx(a,b)(x-a)+fy(a,b)(y-b) the linear approximation we have f(x,y) == f(a,b)+fx(a,b)(x-a)+fy(a,b)(y-b)
+** f(x,y) == f(a,b)+dz 
