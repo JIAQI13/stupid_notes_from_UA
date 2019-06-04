@@ -11,11 +11,8 @@
 *** Clefs
     middle c position?
 **** treble under the stack(piano)  F A C E
-
 **** Bass above the stack
-
 **** ALto in the middle of the symbol(viola)
-
 **** Tenor in the middle of the symbol
 
 *** Stems
@@ -65,6 +62,7 @@ A
 **** based on the major scales
 **** 12 different scales (one for each chromatic pitch)
 *** seale degrees/functions 
+
 ** 5.31
 *** F C G D A E B
 | NATURAL  | down  |
@@ -75,7 +73,7 @@ A
 
 *** D harmonic minor or g mel minor has flat and shap
 
-** 6/2 chapter 6
+** 6/3 chapter 6
 *** homework
 **** cout the intervals to tell its a major or minor,th pattern works on the way up, determine the last step , if its a whole its not a major
 **** find the lowest note and its the leading note for hte major
@@ -88,3 +86,26 @@ A
 *** diminished
 *** scale degree
 *** note funtions
+
+** 6/4
+*** *****find the interval**********
+*** finding the interval below the note is the same as the minor in major we need to make the interval bigger
+*** go up look into major and go down look into minor if it is in the scale then directly write down the major or minor
+*** 1. count te line and make sure the right note
+*** 2. then change it to the right sharp or flat using the whole / half step 
+*** or use the 4th and 5th circle to find out the right major and then find out if it is a flat or sharp
+*** find the interval in the nots
+*** 1.symbol all the sharp and flat to find out the hidden sharp and flat
+*** 2. the do the same thing to find the iterval
+*** 
+*** new class
+*** Anacrusis -->the particial note that started the whole music
+*** Duplet --> notes that are group into two
+*** Triplet --> group of three notes
+*** Hemiola
+*** Beat
+*** Division
+*** Borrowed division -duplets/triplets
+*** Subdivision
+*** Accent pattern - groups of 2 or 3
+*** Compound Meters/Simple Meters
