@@ -290,4 +290,16 @@
 **** L(x,y)=f(3,2) + fx(3,2)(x-3) +fy(3,2)(y-2) ==> 4x-y-2
 ** th let z=f(x,y) If hte particial derivatives fx and fy exist near a point (a,b) in the domian of f and if they are contious at (a,b) the f is differentiabe at (a,b) 
 ** note let dx=deltax=x-a dy=deltay=y-b then we have dz=fx(a,b)(x-a)+fy(a,b)(y-b) the linear approximation we have f(x,y) == f(a,b)+fx(a,b)(x-a)+fy(a,b)(y-b)
-** f(x,y) == f(a,b)+dz 
+** f(x,y) == f(a,b)+dz
+
+** the chain rule
+** y=y(x) x=x(t)
+** dy/dt=dy/dx dx/dt
+** y=f(x(t)) y'=f'(x(t)) x'(t)
+** cchain rule case 1 let z =f (x,y) if x=x(t) y=y(t) and differetialable functions of t, and z =f(x,y) is a different function of x and y then z =f(x(t),y(t) ) is a diff funcion t and we hae 
+			z
+		    /      \
+		x	      y
+		|	     |
+		t	     t
+
