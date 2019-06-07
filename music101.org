@@ -1,4 +1,4 @@
-* music 101
+* music 101 2019 spring
 ** 5.28 
 *** homework review
 **** ties (marking to connect two notes together, tie will always on the same pitch) 
@@ -109,3 +109,19 @@ A
 *** Subdivision
 *** Accent pattern - groups of 2 or 3
 *** Compound Meters/Simple Meters
+** 6/5 family drama happening wtf totally not listening in class 
+** 6/6 chapter9
+*** dyads play two notes together 
+*** triads play three notes together
+*** chords
+*** major/minor/augmented/diminished
+*** inversions
+*** Arpeggios*
+**** major triads
+***** major3 + minor3 = perfect5
+**** minor triade
+***** minor3 +major 3 = perfect 5 from down to the top
+**** augmented triade
+***** major 3rd
+***** minor 3rd
+***** diminished 5th

@@ -302,4 +302,44 @@
 		x	      y
 		|	     |
 		t	     t
-
+* 6/5  
+** if w = f(x,y,z) x= x(t) y=y(t) z=z(t)
+*** ex if w = xy+z, x=cost, y=sint, z=t find dw/dt 
+**** when t=0 dw/dt y(-sint)+x(cost)+1 * (1)
+**** case2 let z=z(x,y) and x = x(s,t),y=y(s,t)
+** if z is a differeniable function and the particial derivatives of x and y exist then z/s=z/x x/s+z/y y/s z/t=z/x x/t+z/y y/t 
+* Directional derivatives the gradient vectors
+** let z =f(x,y) find the reate fo change of f in the direction of an unique vector u->
+** along c1 : z=f(x(t),y(t))
+** dz/dt=fx u1+fy u2 the slope of hte surface in the direction of unit vector u->
+** Du f(x,y)=fx(x,y) u1 + fy(x,y) u2
+** the directional derivaive of f at (x,y) in the direction of hte unit vector u->
+*** where u is the unit vector in the direction of a 
+*** |a->|!=1 , u->=a->/|a->|
+*** fx(x,y)=6xy==>fx(1,2)=6*1*2=12
+*** fy(x,y)=3x^2 ==> fu(1,2)=3
+*** Df(1,2)=fx(1,2)*u1 +fy(1,2) u2
+*** guess my family is fucked who cares this freaking lesson
+* 6/6 
+** the max value of the directonal derivative  Du f(x,y) is  |delta f(x,y)|  and it occurs when u has the same direction as hte gradient vector
+** the minmum value of Du f(x,y) is ==> |delta f(x,y)| and it occurs when u -> is opposite directed to the gradient delta f(x,y)
+*** let f(x,y) =x^2 e^y find the  max calue of he directiinal dericaltive at the point (-2,0) and find the unit vector in the direction in hwich hte max value occurs
+**** find delta f at (-2,0)
+**** f(x,y) = <fx(x,y), fy(x,y)> = <2xe^y, x^2e^y
+**** |delta f(-2,0)|=rootsqure(16+16)
+**** the max vlaue of the directional derivative of (-2,0) in |delta f(-2,0)|=4 root(2)
+**** the unit vector in the direction in which the max value occurs is u = <-4,4>/4 root(2)
+** note if w=f(x,y,z) and u =<u1,u2,u3> |u->|=1
+*** Du f(x,y,z)=fx(x,y,z)u1+fy(x,y,z)u2+f(x,y,z)u3
+*** delta f(x,y,z)=<f/x,f/y,f/z>
+*** Du f(x,y,z)= delta f(x,y,z) * u->
+** suppose that delta f(x,y) != 0 and delta f is the gradient at a point on the level f(x,y)=c, c is defined by R->(t)=<x(f),y(t)>
+** the tangent vector to c is R'->(t)=<dx/dt,dy/dt>=dx/dt l->+dy/dt l->
+** on the level curve c f(x(t),y(t))=c, we have delta f otogenal R->'
+** lemma if delta f(x,y)!=0 then delta f(x,y) is normal to the level curve of f at (x,y)
+*** sketch the graph for f(x,y)=x^2+y^2 through the point (3,4) and draw the gradient at (3,4)
+* 6/6 Tangent planes to level surfaces
+** let S be a surface with eg F(x,y,z) =k let R->(t)=<x(t),y(t),z(t)> a curve on S and R(t0)=<x0,y0,z0> in S 
+** on the curve we have F(x(t),yt,zt)=k, do partial deritive for x,y,zM
+** the dot product between are 0
+** 
