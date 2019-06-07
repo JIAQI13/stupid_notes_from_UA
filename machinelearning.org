@@ -1,2 +1,48 @@
 * 6/6 machine learning notes
 ** dnn  
+** what is a nerual network
+*** housing price prediction
+**** linear regresssion with 0 instead of negative price
+**** size -> node (neron)-> price
+**** ReLu Rectified linear unit
+**** more features
+     size     -|
+                -family size     -|
+     #bedroom -|
+                                      - price 
+                - walkability    -|
+     zip code -|
+                - school quality -|
+     wealth   -|
+** supervised learning 
+  | Input(x)         | Output(y)              | Application         | nerual network    |
+  |------------------+------------------------+---------------------+-------------------|
+  | Home features    | Price                  | Real Estate         | standard NN       |
+  | Ad.user info     | Click on ad?           | Online Advertising  | standard NN       |
+  | Image            | Object (1.10000)       | Photo tagging       | CNN               |
+  | Audio            | Text transcript        | Speech recognition  | RNN               |
+  | English          | Chinese                | Machine translation | RNN               |
+  | Image,Radar info | Position of other cars | Autonomous driving  | Customized,Hybird |
+  |                  |                        |                     |                   |
+*** standard NN, Convolutional NN, Recurrent NN
+*** structured data(data that has meanings,data in the specific table), unstructured data(audio,image,text)
+** scale drives deep learning progress 
+*** triditional learning algorithm has a  limit
+*** we have more data than the triditional method can do 
+*** the scale the bigger, the performance the better
+*** the labeled data*
+*** small training sets are quite similiar, are not well defined, the amount the scale data bigger dominated
+** week one done 
+*** bug report,questiones: feedback@deeplearning.ai
+** Binary Classification
+*** find it is a cat or note
+*** RGB turn them into feature vector, x= length * width * numbers = 64 * 64 *3 = 12288
+*** x->y
+** Notation
+*** m training examples:{(x1,y1)......}
+*** 横向堆叠x和y的训练样本弄出关于x和y的两个矩阵
+***    |   |         |
+*** x=[x1,x2,........xm],y=[y1,y2......ym]
+***    |   |         |
+*** size : m*nx x.shape=(nx,m)    y shape =(1,m)
+** Logistic Regression 
