@@ -1,0 +1,3 @@
+* programming club csc 349
+** cetverta problem
+   solve the problem and submit it
