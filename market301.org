@@ -26,5 +26,154 @@
     Consumer-generated marketing
     targeting fewer more profitable customers - free up resources to better serve loyal customers
     ***customer relationship groups***
-    
-     
+** Company and Marketing Strategy
+   Build-stars->question marks
+   Hold cash cow
+   harvest dogs question mark cash cows
+   divest sellitng the business
+
+
+** Business Porfolio
+	lacking experience/expertise
+	failiing to offer superior value
+	obtaining low profits
+
+** Role of Marketing in Planning
+	Partner relaionshjop management
+	warking with ***internal partners*** can create an effective value chain
+	value delivery network includes
+		company's value chain
+	suppliers
+	distributors
+	customers
+	the goal is improved performance in delivering value to customers
+	
+
+
+* definitions chapter one
+** what is marketing?
+   the process by which companies create value for customers and build strong customer realtionship in order to capture value from customers in return
+**  needs wants returns
+   needs: states of felt deprivation
+   wants: the form human needs take as they are shaped by culture and individual personality
+   demands: human wants that are backed by buying power
+** market offerings
+   some combination of products services information or experiences offered to a market to satisfy a need or want
+** marketing myopia
+   the mistake of paying more attention to the specific products a company offers than to the benefits and experiences produced by those produc
+** exchange
+   the act of obtaining  a desired object from someone by offering something in return
+** market
+   the set of all actual and potential buyers of a product or service
+** marketing management (orientations)
+   the art and science of choosing target markets and building profitable relationships with them
+*** production concept
+   the idea that consumers will favour products that are available and highly affordable; therefore the organization should focus on improving production and distribution effiency
+*** product concept
+   the idea that consumers will favour products that offers the most quality, performance and freatures , therefore, the organization should devote its energy to making continual product improovements
+*** selling concept
+   the idea that consumers will not buy enough of the firm's products unless the firm undertakes a large-scale selling and promotion effort
+*** marketing concept
+   a philosophy in which achieving organizational goals depends on knowing the needs and wants of target markets and delivering the desired satisfaction better than competitiors do.
+*** social marketing concept
+   the idea that a ci=ompany's marketing decisions should consider consumers wants, the company's requirments, consumers' long -run interests, and society's long-run interests.
+** building cusomter relationships
+*** customer realtionshio management
+   the overall process of building and maintaining profitable customer relationships by deliversing superior customer value and satisfaction
+*** customer-perceived value
+   the customers evaluation of the difference between all the benefits and all the costs of a marketing offer relative to those of compeing offers
+*** customer satisfaction
+   the extent to which a product's perceived performance matches a  buyer's expectations
+** engaging customers
+*** customer-engagement marketing
+    making the brand a meaningful part of comsumers' conversatons and lives by fostering direct and confinual customer involvement in shaping brand conversations, experiences, and community
+*** consumer-generated marketing
+    Brand exchanges created by consumers themselves-- both invited and uninvited-- by which consumers are playing an increasing role in shaping their own brand experience and those of other consumers.
+** partner relationship management
+   parter ralationship management:working closely with partners in other company departments and outside the company to jointly bring greater value to customers.
+** customer lifetime value
+   the value of the entire stream of purchases a customer makes over a lifetime of patronage
+** share of customer
+   the protion of the customer's purchsing that a company gets in its product categories
+** customer equity
+   the total combined customer lifetime values of all the company;s customers
+** digital and social media marketing
+   the use of digital marketing tools such as websites,social media, mobile apps and ads,online video,email, and blogs in order to engage cosumers anywhere and at anytime via their digital devices.
+* definition chapter 2 company and marketing strategy: partnering to build customer relationships
+** strategic planning 
+   the process of developing and maintaining a strategic fit between the organization's goal and capabilities and its changing marketing opportunities
+*** steps in strategic planning
+    defining the company mission->setting company objectives and goals -> designing the business portfolio--> palnning marketing and other functional strategies
+** mission statement
+   a statement of the organization's purpose-- what ia wants to accomplish in the larger enviroment
+** business portfolio
+   the collection of business and products that make up the company
+** portfolio analysis
+   the process by which management evaluates the products and businesses that make up the company
+** growth -share matrixi-the boston consulting group approach
+   a portfolio-planning method that evaluates a company's strategic business units(SBUs) in terms of its market growth rate and relative market share. SBUs are classifield as stars,cash cows,qustion marks ordogs
+*** star: 
+    high-growth , high-share business or products---need heavy investments to finance their rapid growth and eventually their growth will slow down, and they will turn into cashcows
+*** cash cows:
+    low-growth, high-share business or products. these established and successful SBUs need less investment to hold their market share.
+    thus they produce a lot of cash that the company uses to pay its bill and support other SBUS that need investment
+*** question marks:
+    low-share business units in high-growth markets. They require a lot of cash to hold-their share,let alone increase it.Mangagemtn has to think hard about which question
+    mark it should try to build into stars and which should be pushed out
+*** dogs
+    dos are low-growth rate low-share business and products.They may generate enough cash to maintain themselves but do not promise to be large sources of cash.
+** Developing strategies for growth and downsizing
+   |                  | existing products  | new products        |
+   |------------------+--------------------+---------------------|
+   | existing markets | market penetration | product development |
+   | new markets      | market development | diversification     |
+
+*** product-market expansion grid
+    a portfolio-planning tool for identifying company growth opportunities through market penetration, market development, product development, or diversification
+*** market penetration 
+    a strategy for company growth by increasing sales of current products to current market segments without changing the product
+*** market development
+    a strategy for company growth by identifying and developing new market segments for current company products
+*** product development
+    a strategy for company growth by offering modified or new products to current market segments
+*** diversification
+    a strategy for company grwoth through starting up or acquiring businesses outside the comapny's current products and markets.
+*** downsizing 
+    reducing the business protfolio by eliminating products or business units that are not profitable or that no longer fit he company's overall strategy
+
+   
+** PARTING WITH OTHER COMPANY DEPARTMENT--VALUE CHAIN
+   the series of internal departments that carry out value-creating activities to design,produce,amrket,deliver,and support a firm's products
+** value delivery network
+   the network made up of the company, suppliers,distuributores and ultimately customers who partner with each other to improve the performance of the entire system
+** marketing strategy
+   the marketing logic by which the comapny hopes to create customer value and achieve profitable customer relationships
+** market segmentation
+   dividing a market into distinct groups of buyers who have different needs, characterisitics, or behaviours and who might require separate products or marketing programs
+** market segment
+   a group of customers who respond in a similar way to a given set of marketing efforts
+** market targetting
+   the process of evaluating each market segment's attractiveness and selecting one or more segments to enter.
+** positioning
+   arranging for a product to occupy a clear, distinctive, and desirable place relative to competing products in the minds of consumers
+** differentiation
+   actually differentiating the market offering to create superior customer value.
+** developing an integrated marketing mix
+   marketing mix
+   the set of controllable, tactcal marketing tools--products,price,place and promotion--that the firm blends to produce the response it wants in the target market
+   ***products
+   market offereing
+   ***Price
+   the amount of money customers must pay to obtain the product
+   ***place
+   the distribution of the product and the avilability of the service
+   ***promotion
+   the activities that communicate the merits of the producdt and persuade customers to buy it
+| four Ps   | four Cs           |
+|-----------+-------------------|
+| product   | customer solution |
+| price     | customer cost     |
+| place     | convenience       |
+| promotion | communication     |
+** SWOT marketing analysis
+   an overall evalution of the comapany's 
